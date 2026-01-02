@@ -92,11 +92,13 @@ services:
         cp -r /app/* /srv/element/
         cp /config/config.json /srv/element/config.json
         cp /config/welcome.html /srv/element/welcome.html
+        cp /config/logo.webp /srv/element/logo.webp
         echo "Element Web files copied successfully"
     volumes:
       - element-web:/srv/element
       - ./config/element-config.json:/config/config.json:ro
       - ./config/welcome.html:/config/welcome.html:ro
+      - ./config/logo.webp:/config/logo.webp:ro
     networks:
       - zanjir-network
 
