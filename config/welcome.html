@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>زنجیر⛓️ - خوش آمدید</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Vazirmatn', 'Tahoma', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #e0e0e0;
+            direction: rtl;
+        }
+        .welcome-container {
+            text-align: center;
+            padding: 40px;
+            max-width: 600px;
+        }
+        .logo {
+            font-size: 72px;
+            margin-bottom: 20px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #a0a0a0;
+            margin-bottom: 30px;
+        }
+        .features {
+            text-align: right;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .feature:last-child {
+            margin-bottom: 0;
+        }
+        .feature-icon {
+            font-size: 24px;
+            margin-left: 15px;
+            min-width: 40px;
+        }
+        .feature-text {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .cta {
+            font-size: 1rem;
+            color: #888;
+        }
+        .highlight {
+            color: #e94560;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <div class="logo">⛓️</div>
+        <h1>به زنجیر خوش آمدید</h1>
+        <p class="subtitle">پیام‌رسان امن و غیرمتمرکز برای ایرانیان</p>
+        
+        <div class="features">
+            <div class="feature">
+                <span class="feature-icon">🔒</span>
+                <span class="feature-text">رمزنگاری سرتاسری (End-to-End Encryption) برای حفظ حریم خصوصی شما</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🌐</span>
+                <span class="feature-text">غیرمتمرکز و متن‌باز - کنترل کامل داده‌های شما در دستان شماست</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🇮🇷</span>
+                <span class="feature-text">کاملاً فارسی و بهینه‌سازی شده برای کاربران ایرانی</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🚀</span>
+                <span class="feature-text">سبک و سریع - مناسب برای سرورهای با منابع محدود</span>
+            </div>
+        </div>
+        
+        <p class="cta">برای شروع، وارد شوید یا یک حساب <span class="highlight">جدید</span> بسازید</p>
+    </div>
+</body>
+</html>

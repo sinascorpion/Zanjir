@@ -1,0 +1,32 @@
+# Environment
+.env
+*.env.local
+
+# Dendrite keys and data
+dendrite/matrix_key.pem
+dendrite/data/
+
+# PostgreSQL data
+postgres-data/
+
+# Caddy data and config
+caddy-data/
+caddy-config/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backups
+*.bak
+*.backup
